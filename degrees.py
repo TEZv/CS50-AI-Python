@@ -156,6 +156,7 @@ def person_id_for_name(name):
     else:
         return person_ids[0]
 
+
 def neighbors_for_person(person_id):
     """
     Returns (movie_id, person_id) pairs for people
@@ -167,6 +168,7 @@ def neighbors_for_person(person_id):
         for person_id in movies[movie_id]["stars"]:
             neighbors.add((movie_id, person_id))
     return neighbors
+
 
 if __name__ == "__main__":
     main()

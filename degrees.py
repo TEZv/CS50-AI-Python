@@ -156,7 +156,6 @@ def person_id_for_name(name):
     else:
         return person_ids[0]
 
-
 def neighbors_for_person(person_id):
     """
     Returns (movie_id, person_id) pairs for people
